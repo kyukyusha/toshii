@@ -1,0 +1,174 @@
+@media (max-width: 960px){
+  /*---------
+  全部のスクエア
+  ------------*/
+  .square {
+    margin-top: 100px
+  }
+  /*-------------
+  コンテナ　ボックスの下のやつ全部
+  --------------*/
+  .box div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    height: auto;
+  }
+  .box div div {
+    width: 100%;
+  }
+  .box img {
+    width: 100%;
+  }
+  .box img {
+    margin: 0;
+  }
+
+  /*------------------------
+  ヘッダー
+  ------------------------*/
+  .header {
+    display: none!important;
+  }
+  .handshake {
+    display: none;
+  }
+  .responsive-all {
+    display: block;
+    height: 600px;
+    width: 100%;
+  }
+  .responsive {
+    background-image: url(./images/handshake.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .responsive-h1 {
+    color: white;
+    text-align: center;
+  }
+  .container_p {
+    font-weight: bold;
+  }
+
+  /*-----------------------
+  夢を共有する　マージン0
+  ------------------------*/
+  .wrapper_dream div {
+    margin: 0 0 10px 0;
+  }
+  /*---------------------
+  airbabについて　マージン0
+  ---------------------*/
+  .wrapper_what div {
+    margin: 0 0 10px 0;
+  }
+  .nice_guy {
+    margin: 0;
+  }
+  /*-----------------------
+  よくある質問
+  ----------------------*/
+  .wrapper_nav ul {
+    padding-left: 0;
+  }
+  .wrapper_nav li {
+    width: 80%;
+    margin: 15px;
+  }
+  /*--------------
+  ホスティングの詳細
+  -----------------*/
+  .detail {
+    margin-bottom: 0!important;
+  }
+  .detail_top {
+  margin-left: 0;
+  }
+
+/*----------------
+収益化
+----------------*/
+.box_lets {
+  margin: 0;
+  text-align: center;
+}
+.box_lets p {
+  font-size: 17px;
+}
+.box_lets a {
+  font-size: 12px;
+  padding: 5px;
+  width: 64px;
+  margin-left: 10px;
+}
+/*-------------------
+ホスティングの詳細
+--------------------*/
+.detail_menu {
+  display: none!important;
+}
+.detail_menu2 div {
+  flex-direction: row;
+  position: relative;
+  height: 62px;
+}
+.detail_safety2,.detail_setting2,.detail_plan2{
+  border: 1px solid rgba(147, 137, 137, 0.5);
+
+}
+.detail_menu2 div div {
+  flex-direction: column;
+}
+.detail_menu2 img {
+  width: 70px;
+  height: 60px;
+}
+
+}
+.detail_menu2 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+.detail_menu2 h5 {
+  font-weight: bold;
+}
+/*-------------------
+下の採用情報
+-------------------*/
+.airbnb_all {
+  display: none!important;
+}
+.wrapper_footer {
+  border-top: none;
+}
+.sns_logo ul {
+  display: none;
+}
+.footermap {
+  margin-right: 0;
+
+}
+footer .sns_logo {
+  display: none;
+}
+footer .wrapper_footer {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0;
+}
+.footermap,.footer_all,.footer_all p,.footer_logo {
+  margin-bottom: 0!important;
+}
+footer div .footer_logo {
+  width: 50px;
+}
+footer .footer_day {
+  margin-bottom: 0;
+}
