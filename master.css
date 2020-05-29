@@ -1,0 +1,513 @@
+@charset "UTF-8";
+body {
+  font-family: sans-serif;
+}
+body div .container-fliud {
+  padding: 0;
+}
+h2 {
+  width: 100%;
+}
+.responsive-all {
+  display: none;
+}
+/*----------------------------------
+ヘッダー
+-----------------------------------*/
+header img {
+  width: 60px;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  border-bottom: 1px solid rgba(117, 109, 109, 0.2);
+}
+
+header a{
+  color: #212529;
+}
+
+header a:hover {
+  color: inherit;
+}
+
+header ul {
+  padding-inline-start: 0;
+  margin-bottom: auto;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-weight: bold;
+}
+
+header nav {
+  padding-right: 210px;
+  display: flex;
+}
+
+}
+.top {
+  font-weight: bold;
+}
+.top>* {
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+/*---------
+スタートクラス
+----------*/
+.start {
+  display: flex;
+  align-items: center;
+}
+
+header div p:nth-child(1) {
+  font-size: 15px
+  margin-top: 4px;
+}
+
+header span {
+  font-size: 9px;
+  padding: 0 3px 10px 5px;
+}
+
+header div p:nth-child(3){
+  font-size:20px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.start a {
+  background-color: #d90519;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  display: block;
+  padding: 5px 13px;
+  margin-bottom: 12px;
+}
+.start a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*--------------------
+握手画像 contain
+----------------------*/
+.handshake {
+  background-image: url(./images/handshake.jpg);
+  background-size: cover;
+
+  height: 600px;
+  padding-top: 100px;
+  position: relative;
+
+}
+.contain {
+  background-color: white;
+  width: 405px;
+  position: absolute;
+  top: 139px;
+  right: 52px;
+  padding: 30px;
+  border-radius: 7px;
+}
+
+.contain_input,.contain_rent,.contain_guest{
+  border: 1px solid rgba(88, 83, 83, 0.2);
+  border-radius: 4px;
+  padding: 10px;
+}
+.contain_input {
+  width: 100%;
+}
+.contain_rent {
+  width: 60%;
+  margin: 10px 10px 0 0;
+}
+.contain_guest {
+  width: 35%;
+}
+
+.contain_money {
+  display: flex;
+}
+.contain_money p:first-of-type {
+  font-size: 40px ;
+  font-weight: bold;
+}
+.contain_money p:nth-of-type(2) {
+  padding: 30px 0 0 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.contain_money span {
+  font-size: 10px;
+  padding :35px 0 0 5px;
+  color: rgba(0, 0, 0, 0.7);
+}
+/*--------------
+explain
+-------------*/
+.explain {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding-top: 50px;
+}
+.reason,.relief {
+  width: 430px;
+}
+.reason span,.relief span{
+  font-size: 23px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.square {
+  width: 70px;
+  height: 1px;
+  border: solid 1px black;
+  margin: 0 auto;
+}
+/*---------------------
+steps
+------------------------*/
+.steps {
+  margin-bottom: 100px;
+}
+.important {
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 66px;
+  text-align: center;
+}
+.three_steps {
+  display: flex;
+  justify-content: center;
+}
+.three_steps div {
+  width: 300px;
+  font-size: 20px;
+  padding: 0 6px;
+  margin: 0 6px;
+}
+.three_steps span {
+  font-size: 40px;
+}
+.three_steps p:first-of-type {
+  font-size: 23px;
+  font-weight: bold;
+}
+.three_steps p:nth-of-type(2) {
+  font-size: 15px;
+}
+.anchor {
+  font-size: 15px;
+}
+.anchor:link,.anchor:hover,.anchor:visited,.anchor:active {
+  color: rgba(24, 144, 97, 0.88);
+}
+
+/*----------------
+security
+-------------------*/
+.wrapper_security {
+  display: flex;
+  justify-content: center;
+  height: 700px
+}
+.security_host,.nice_guy {
+  width: 400px;
+}
+.security_host .fas,.security_host .fas {
+  color: rgba(255, 222, 0, 0.93);
+  font-size: 30px;
+}
+.security_host p:first-of-type {
+  font-size: 30px;
+}
+.security_host p:nth-of-type(2) {
+  font-size: 17px;
+}
+.security_host .security_link:link,.security_link:hover,.security_link:visited,.security_link:active{
+  color: #545b62;
+  text-decoration: none;
+}
+.security_host a {
+  font-size: 17px;
+  padding: 10px;
+  border: 3px solid #545b62;
+  border-radius: 5px;
+}
+.nice_guy {
+  margin-left: 50px;
+}
+/*---------------------
+safety and bedmake
+-----------------------*/
+.wrapper_safety {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.box_safety,.safety_list {
+  width: 500px;
+}
+
+.safety_discription,.safety_list li{
+  color :rgba(0, 0, 0, 0.8);
+}
+.safety_list ul {
+  list-style: none;
+}
+.safety_list li {
+  margin-bottom: 18px;
+}
+.safety_list i {
+  color: rgba(18, 230, 174, 0.78);
+  padding: 0 8px;
+}
+
+.bed_make {
+  text-align: center;
+  height: 700px;
+  margin-bottom: 100px;
+}
+.bed_make img {
+  width: 100%;
+  height: auto;
+}
+/*------------------
+simple
+--------------------*/
+.simple {
+  margin-bottom: 100px;
+}
+/*------------------
+kithen
+-------------------*/
+.wrapper_security img {
+  width: 400px;
+  height: auto;
+  margin-right: 50px;
+}
+/*-------------------
+dream
+------------------*/
+.dream {
+  height: 400px;
+}
+.wrapper_dream {
+  display: flex;
+  justify-content: center;
+}
+.wrapper_dream div {
+  width: 240px;
+  height: 200px;
+  border: 0 20px;
+  margin: 5px 40px;
+}
+.wrapper_dream p:first-of-type {
+  text-align: center;
+  font-size: 50px;
+}
+.wrapper_dream p:nth-of-type(2) {
+  text-align: center;
+}
+/*-------------------
+what
+---------------------*/
+.wrapper_what {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.wrapper_what div {
+  width: 450px;
+}
+.wrapper_what p:first-of-type {
+  font-size:25px;
+  font-weight: bold;
+}
+.what p {
+  line-height: 1.7;
+}
+.box_airbab {
+  margin-right: 20px;
+}
+.box_what {
+  margin-left: 20px;
+}
+/*-----------------
+questions
+-------------------*/
+.questions {
+  height: 400px;
+}
+.wrapper_nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.wrapper_nav li {
+  width: 40%;
+  list-style: none;
+  border-bottom: 1px solid rgba(117, 105, 105, 0.2);
+  margin: 10px;
+}
+.wrapper_nav .anchor {
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 13px;
+}
+/*-------------------
+detail
+--------------------*/
+.detail_top {
+  font-weight: bold;
+  display: block;
+  margin-left:93px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.detail_menu {
+  display: flex;
+  justify-content: space-around;
+}
+.detail_setting,.detail_safety,.detail_plan {
+  width: 29%;
+
+}
+.detail_menu img {
+  width: 100%;
+  height: auto;
+}
+.detail_menu p:first-of-type {
+  font-weight: bold;
+}
+.detail_menu p:nth-of-type(2) {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.detail_menu2 {
+  display: none;
+}
+/*-------------------
+lets
+-------------------*/
+.lets {
+  background-image: url(./images/flower.jpg);
+  background-size: contain;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  background-size: 100%
+}
+.box_lets {
+  width: 330px;
+  padding-top: 100px;
+}
+.lets p {
+  font-size: 43px;
+  color: white;
+  font-weight: bold;
+}
+.box_lets a {
+  background-color: white;
+  width: 91px;
+  padding: 10px;
+  border-radius: 7px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.lets_a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/*-----------------
+airbnb_all
+------------------*/
+.airbnb_all {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.company,.staff,.hosting,.support {
+  width: 200px;
+}
+.airbnb_all ul {
+  list-style: none;
+}
+.li_empty {
+  height: 1rem;
+}
+.airbnb_all li {
+  font-weight: bold;
+  color: rgba(17, 16, 16, 0.84);
+  font-size: 14px;
+}
+.airbnb_all li:first-of-type {
+
+}
+.airbnb_all a {
+  color: rgba(17, 16, 16, 0.5);
+}
+/*----------------
+footer
+--------------------*/
+.wrapper_footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer_logo {
+  width: 50px;
+}
+footer img {
+  width: 100%;
+}
+.footermap {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(23, 22, 22, 0.5);
+  margin-right: 110px;
+}
+.footer_all {
+  display: flex;
+}
+footer a:hover {
+  color: inherit;
+}
+footer a {
+  color: inherit;
+}
+.sns_logo ul {
+  list-style: none;
+  display: flex;
+}
+.sns_logo li {
+  margin-right: 18px;
+}
+.sns_logo .fab {
+  color: gray;
+}
